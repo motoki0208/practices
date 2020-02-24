@@ -7,3 +7,7 @@ def count_bit(i):
         i = i >> 1
 
     return count
+
+
+def xor(i, j):
+    return ~(i & j) & (i | j)

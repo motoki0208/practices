@@ -1,9 +1,5 @@
 import unittest
-from bit_manipulation.util import count_bit
-
-
-def xor(i, j):
-    return ~(i & j) & (i | j)
+from bit_manipulation.util import count_bit, xor
 
 
 def e6(i, j):
